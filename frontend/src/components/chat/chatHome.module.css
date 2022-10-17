@@ -1,0 +1,31 @@
+.head {
+    display: flex;
+}
+
+.headTitle {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: #1c324d;
+}
+
+.btnBox {
+    /* position: relative;
+    margin-top: 1px;
+    left: 4.5rem; */
+}
+
+.addbtn {
+    height: 100%;
+    width: 80%;
+    transition: all 0.5s ease;
+    color: #ffffff;
+    background-color: #aae5bb;
+    outline: none;
+    size: 10rem;
+    border-radius: 80%;
+    border: solid #aae5bb;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #B0D8BC;
+}

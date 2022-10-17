@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.profileContainer {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profilePic {
+    margin-top: 1rem;
+    width: 16rem;
+    height: 16rem;
+}
+
+.profileInfo {
+    padding: 0.5rem 4rem;
+}
+
+.infoBox {
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.subtitle {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+hr {
+    margin-bottom: 0.5rem;
+}
+
+.bio {
+    font-size: 14px;
+}
+
+.interestBox {
+    padding-top: 0.1rem;
+}
+
+.tickbtn {
+    margin-left: 2rem;
+    transition: all 0.5s ease;
+    color: white;
+}
+
+.crossbtn {
+    padding-top: 3px;
+    transition: all 0.5s ease;
+    color: white;
+}
+
+.btnBox {
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+/* Matching Success Page */
+.body {
+    background: url('../../assets/successBackground.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-bottom: 4rem;
+    padding: 0 1rem;
+    color: white;
+}
+
+.tab {
+    padding-top: 4rem;
+    margin-bottom: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bigTitle {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titleBox {
+    margin-right: 8rem;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+}
+
+.caption {
+    margin: 2.5rem 0rem;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.backwardBtn {
+    background-color: transparent;
+    margin-left: 1rem;
+    width: 15%;
+    transition: all 0.5s ease;
+    color: #ffffff;
+    outline: none;
+    size: 15rem;
+}
+
+.btn {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    color: #ffffff;
+}

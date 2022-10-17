@@ -1,0 +1,60 @@
+.bigTitle {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: #1d1d42;
+    margin-top: 1rem;
+}
+
+.title {
+    margin-left: 5.5rem;
+}
+
+.profileContainer input[type='file'] {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.subtitle {
+    font-size: 14px;
+    padding-top: 10px;
+    color: #7a7a7a;
+}
+
+.timeBox {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #7a7a7a;
+}
+
+.input {
+    width: 18rem;
+}
+
+.job {
+    padding-left: 1rem;
+    width: 18rem;
+}
+
+.information {
+    margin-left: 2rem;
+    width: 21rem;
+    height: 10rem;
+}
+
+.btn {
+    margin: 1rem 3rem;
+    transition: 0.5s;
+    text-align: center;
+    transition: 0.5s;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}

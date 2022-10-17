@@ -1,0 +1,85 @@
+.body {
+    background: url('../../assets/successBackground.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-bottom: 5rem;
+    padding: 0 1rem;
+    color: white;
+}
+
+.tab {
+    padding-top: 3rem;
+    margin-bottom: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.titleBox {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    /* margin-right: 7rem; */
+    text-shadow: 4px 2px #494646c2;
+}
+
+.bigTitle {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.backwardBtn {
+    background-color: transparent;
+    margin-left: 1rem;
+    width: 15%;
+    transition: all 0.5s ease;
+    outline: none;
+    size: 15rem;
+
+    position: absolute;
+    left: 0px;
+    z-index: 1000;
+}
+
+.box {
+    height: 30rem;
+}
+
+.select {
+    height: 3rem;
+    border: 3px solid;
+    margin: 1rem 0;
+    font-weight: 600;
+    backdrop-filter: blur(10px);
+}
+
+.currencyBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 8rem;
+}
+
+.rate {
+    width: 100%;
+    border-radius: 0.5rem;
+    height: 3rem;
+    border: 1px solid;
+    margin: 1rem 0;
+    font-weight: 500;
+    background-color: #ffffff3f;
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}

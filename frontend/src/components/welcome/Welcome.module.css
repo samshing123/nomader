@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body {
+    background: url('../../assets/welcomeBackground.jpg');
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcomeBox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hexagon {
+    height: 28rem;
+    background: inherit;
+    width: 100%;
+    -webkit-clip-path: polygon(50% 0,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0 75%,
+            0 25%);
+    -moz-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    -ms-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    overflow: hidden;
+    backdrop-filter: blur(15px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+
+.button {
+    /* background: #ffffffbb; */
+    margin: 1rem;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    border: 0.5rem;
+    text-decoration: none;
+}
